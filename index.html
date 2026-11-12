@@ -5,17 +5,20 @@
 <title>Онлайн-школа · старт практики</title>
 <style>
   * {box-sizing:border-box}
-  body {margin:0; background:#fbf9f5; color:#202b32; font:17px/1.5 system-ui,sans-serif}
-  main {max-width:43rem; margin:8vh auto; padding:0 1.25rem}
+  body {margin:0; background:#f9f5ef; color:#292538; font:17px/1.5 system-ui,sans-serif}
+  main {max-width:47rem; margin:clamp(1.2rem,5vh,3.5rem) auto; padding:0 1.25rem}
+  .cover {width:100%; height:auto; display:block; margin:0 0 1.8rem}
+  a {color:#5d3a72; text-underline-offset:.2em}
   h1 {line-height:1.12; font-size:clamp(2rem,7vw,3rem); margin:.2em 0}
-  small {color:#276368; letter-spacing:.05em}
+  small {color:#694069; letter-spacing:.05em}
   video {width:100%; background:#172e42; border-radius:.6rem; aspect-ratio:16/9}
 </style>
 <main>
-  <small>ПРАКТИКА · СТАРТОВЫЕ МАТЕРИАЛЫ</small>
+  <img class="cover" src="media/cover.svg" alt="ИнфоДон. Практика 02: продолжить урок">
+  <small>ПРОВЕРКА СТАРТОВЫХ МАТЕРИАЛОВ</small>
   <h1>Кабинет онлайн-школы</h1>
   <p>Эта страница нужна для проверки исходных материалов. Включите ролик и попробуйте перемотать его. Сценарии вашего кабинета описаны в <a href="README.md">README.md</a>.</p>
-  <p id="data-status">Учебные данные не загружены. Проверьте, что архив распакован полностью.</p>
+  <p id="data-status">Учебные данные не загружены. Проверьте, что рядом со страницей есть fixtures.js.</p>
   <video id="sample" controls playsinline preload="metadata" aria-label="Тестовый ролик без звука"></video>
 </main>
 <script src="fixtures.js"></script>

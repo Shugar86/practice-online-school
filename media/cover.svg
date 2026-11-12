@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 264" role="img" aria-labelledby="title desc">
+  <title id="title">ИнфоДон. Практика 02: онлайн-школа</title>
+  <desc id="desc">Точка на шкале просмотра: продолжить урок с девятой секунды.</desc>
+  <rect width="1080" height="264" rx="18" fill="#292538"/>
+  <path d="M648 0H1080V264H590Z" fill="#373145"/>
+  <g font-family="system-ui, sans-serif" fill="#fff7e9">
+    <text x="52" y="53" font-size="17" font-weight="600" letter-spacing="2.2">ИНФОДОН   /   ПРАКТИКА 02</text>
+    <text x="48" y="137" font-size="62" font-weight="700">Продолжить урок</text>
+    <text x="53" y="193" fill="#ded0df" font-size="25">Кабинет ученика и преподавателя</text>
+  </g>
+  <g transform="translate(696 48)">
+    <rect x="0" y="0" width="330" height="174" rx="14" stroke="#84778d" fill="#221f2d"/>
+    <circle cx="164" cy="61" r="30" fill="#ffc897"/>
+    <path d="M157 48 157 74 178 61Z" fill="#302439"/>
+    <path d="M29 119H301" stroke-width="5" stroke-linecap="round" stroke="#665c72"/>
+    <path d="M29 119H131" stroke-width="5" stroke-linecap="round" stroke="#ffc897"/>
+    <circle cx="131" cy="119" r="7" fill="#fff2e3"/>
+    <g font-family="monospace" font-size="14" fill="#ded0df"><text x="29" y="149">00:09</text><text x="260" y="149">00:24</text></g>
+  </g>
+</svg>
