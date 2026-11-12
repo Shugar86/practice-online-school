@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ru">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Онлайн-школа · старт практики</title>
+<style>
+  * {box-sizing:border-box}
+  body {margin:0; background:#fbf9f5; color:#202b32; font:17px/1.5 system-ui,sans-serif}
+  main {max-width:43rem; margin:8vh auto; padding:0 1.25rem}
+  h1 {line-height:1.12; font-size:clamp(2rem,7vw,3rem); margin:.2em 0}
+  small {color:#276368; letter-spacing:.05em}
+  video {width:100%; background:#172e42; border-radius:.6rem; aspect-ratio:16/9}
+</style>
+<main>
+  <small>ПРАКТИКА · СТАРТОВЫЕ МАТЕРИАЛЫ</small>
+  <h1>Кабинет онлайн-школы</h1>
+  <p>Эта страница нужна для проверки исходных материалов. Включите ролик и попробуйте перемотать его. Сценарии вашего кабинета описаны в <a href="README.md">README.md</a>.</p>
+  <p id="data-status">Учебные данные не загружены. Проверьте, что архив распакован полностью.</p>
+  <video id="sample" controls playsinline preload="metadata" aria-label="Тестовый ролик без звука"></video>
+</main>
+<script src="fixtures.js"></script>
+<script>
+  if (window.schoolDemo) {
+    const {lessons, students} = window.schoolDemo
+    document.getElementById('data-status').textContent =
+      'Данные на месте: уроков — ' + lessons.length + ', учеников — ' + students.length + '.'
+    document.getElementById('sample').src = lessons[0].video
+  }
+</script>
+</html>
